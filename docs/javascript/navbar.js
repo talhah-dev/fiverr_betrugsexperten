@@ -18,7 +18,7 @@ navbar.innerHTML = `
       <div class="md:flex hidden items-center gap-10">
         <ul class="flex items-center text-black/90 gap-8">
           <li>
-            <a href="#ueber-uns"
+            <a href="/uber-uns.html"
                class="hover:opacity-80 tracking-wide font-medium text-[15px] transition-all duration-300">
               Über uns
             </a>
@@ -34,24 +34,24 @@ navbar.innerHTML = `
             </button>
 
             <div
-              class="absolute left-0  w-64 bg-white rounded-xl shadow-lg border border-slate-200 py-2 opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-200 origin-top z-50">
-              <a href="#investment-betrug"
+              class="absolute left-0 w-64 bg-white rounded-xl shadow-lg border border-slate-200 py-2 opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-200 origin-top z-50">
+              <a href="/investment-betrug.html"
                  class="block px-4 py-2.5 text-sm text-slate-800 hover:bg-slate-50">
                 Investment-Betrug
               </a>
-              <a href="#bank-betrug"
+              <a href="/bank-betrug.html"
                  class="block px-4 py-2.5 text-sm text-slate-800 hover:bg-slate-50">
                 Bank-Betrug
               </a>
-              <a href="#festgeld-betrug"
+              <a href="/festgeld-betrug.html"
                  class="block px-4 py-2.5 text-sm text-slate-800 hover:bg-slate-50">
                 Festgeld-Betrug
               </a>
-              <a href="#fakeshop-betrug"
+              <a href="/fakeshop-betrug.html"
                  class="block px-4 py-2.5 text-sm text-slate-800 hover:bg-slate-50">
                 Fakeshop-Betrug
               </a>
-              <a href="#romance-scam"
+              <a href="/romance-betrug.html"
                  class="block px-4 py-2.5 text-sm text-slate-800 hover:bg-slate-50">
                 Romance Scam
               </a>
@@ -59,7 +59,7 @@ navbar.innerHTML = `
           </li>
 
           <li>
-            <a href="#kontakt"
+            <a href="/index.html#kontakt"
                class="hover:opacity-80 tracking-wide font-medium text-[15px] transition-all duration-300">
               Kontakt
             </a>
@@ -67,7 +67,7 @@ navbar.innerHTML = `
         </ul>
 
         <div class="md:flex hidden items-center justify-center">
-          <a href="#beratung"
+          <a href="/index.html#kontakt"
              class="transition-all duration-300 bg-[#f59e0b] hover:bg-amber-500 font-medium px-6 py-2.5 rounded-lg text-black/90 text-sm">
             Kostenlose Erstberatung
           </a>
@@ -89,8 +89,8 @@ navbar.innerHTML = `
     <div class="p-6">
       <ul class="flex flex-col gap-6 text-zinc-800">
         <li>
-          <a href="#ueber-uns"
-             class="hover:text-sky-700 text-nowrap font-medium text-[15px] transition-all duration-300">
+          <a href="/uber-uns.html"
+             class="hover:text-sky-700 mobileMenuCloseBtns text-nowrap font-medium text-[15px] transition-all duration-300">
             Über uns
           </a>
         </li>
@@ -105,51 +105,56 @@ navbar.innerHTML = `
           </button>
           <div class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out mobileDropdown">
             <ul class="pt-3 pl-4 space-y-3 text-[14px] text-zinc-700">
-              <li><a href="#investment-betrug" class="hover:text-sky-700 transition">Investment-Betrug</a></li>
-              <li><a href="#bank-betrug" class="hover:text-sky-700 transition">Bank-Betrug</a></li>
-              <li><a href="#festgeld-betrug" class="hover:text-sky-700 transition">Festgeld-Betrug</a></li>
-              <li><a href="#fakeshop-betrug" class="hover:text-sky-700 transition">Fakeshop-Betrug</a></li>
-              <li><a href="#romance-scam" class="hover:text-sky-700 transition">Romance Scam</a></li>
+              <li><a href="/investment-betrug.html" class="hover:text-sky-700 mobileMenuCloseBtns transition">Investment-Betrug</a></li>
+              <li><a href="/bank-betrug.html" class="hover:text-sky-700 mobileMenuCloseBtns transition">Bank-Betrug</a></li>
+              <li><a href="/festgeld-betrug.html" class="hover:text-sky-700 mobileMenuCloseBtns transition">Festgeld-Betrug</a></li>
+              <li><a href="/fakeshop-betrug.html" class="hover:text-sky-700 mobileMenuCloseBtns transition">Fakeshop-Betrug</a></li>
+              <li><a href="/romance-betrug.html" class="hover:text-sky-700 mobileMenuCloseBtns transition">Romance Scam</a></li>
             </ul>
           </div>
         </li>
 
         <li>
-          <a href="#kontakt"
-             class="hover:text-sky-700 font-medium text-[15px] transition-all duration-300">
+          <a href="/index.html#kontakt"
+             class="hover:text-sky-700 mobileMenuCloseBtns font-medium text-[15px] transition-all duration-300">
             Kontakt
           </a>
         </li>
       </ul>
 
-      <a href="#beratung"
-         class="block transition-all transition-all duration-300 bg-[#f59e0b] hover:bg-amber-500 font-medium px-6 py-2.5 rounded-lg text-black/90 text-sm mt-6 text-nowrap">
+      <a href="/index.html#kontakt"
+         class="block mobileMenuCloseBtns transition-all duration-300 bg-[#f59e0b] hover:bg-amber-500 font-medium px-6 py-2.5 rounded-lg text-black/90 text-sm mt-6 text-nowrap">
         Kostenlose Erstberatung
       </a>
     </div>
   </div>
-    <div class="md:h-20 h-16"></div>
 
+  <div class="md:h-20 h-16"></div>
 `;
 
-// SIDEBAR OPEN/CLOSE
-const mobileMenuBtn = document.querySelectorAll(".mobileMenuBtn");
+// ====== SIDEBAR OPEN/CLOSE ======
 const mobileMenu = document.getElementById("mobileMenu");
-const mobileMenuCloseBtns = document.querySelectorAll(".mobileMenuCloseBtn");
+const mobileMenuBtns = document.querySelectorAll(".mobileMenuBtn");
 
-mobileMenuCloseBtns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    mobileMenu.style.width = "0";
-  });
-});
-
-mobileMenuBtn.forEach((btn) => {
+// Open menu (hamburger)
+mobileMenuBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     mobileMenu.style.width = "100%";
   });
 });
 
-// MOBILE DROPDOWN TOGGLE
+// Close menu on X icon OR any link inside the mobile menu
+const mobileMenuCloseTriggers = document.querySelectorAll(
+  ".mobileMenuCloseBtn, #mobileMenu a, .mobileMenuCloseBtns"
+);
+
+mobileMenuCloseTriggers.forEach((el) => {
+  el.addEventListener("click", () => {
+    mobileMenu.style.width = "0";
+  });
+});
+
+// ====== MOBILE DROPDOWN TOGGLE ======
 const mobileDropdownBtns = document.querySelectorAll(".dropdownMobileBtn");
 
 mobileDropdownBtns.forEach((btn) => {
@@ -158,6 +163,7 @@ mobileDropdownBtns.forEach((btn) => {
 
   btn.addEventListener("click", () => {
     const isClosed = content.classList.contains("max-h-0");
+
     if (isClosed) {
       content.classList.remove("max-h-0");
       content.classList.add("max-h-96");

@@ -16,19 +16,20 @@ footer.innerHTML = `
                     <div>
                         <h3 class="font-semibold mb-3 md:mb-7 text-xl">Schnellzugriff</h3>
                         <ul class="space-y-3 text-white/80">
-                            <li><a href="#" class="hover:underline">Startseite</a></li>
-                            <li><a href="#" class="hover:underline">Über uns</a></li>
-                            <li><a href="#" class="hover:underline">Kontakt</a></li>
+                            <li><a href="/index.html" class="hover:underline">Startseite</a></li>
+                            <li><a href="/uber-uns.html" class="hover:underline">Über uns</a></li>
+                            <li><a href="/index.html#kontakt" class="hover:underline">Kontakt</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <h3 class="font-semibold mb-3 md:mb-7 text-xl">Betrugsarten</h3>
                         <ul class="space-y-3 text-white/80">
-                            <li><a href="#" class="hover:underline">Investment-Betrug</a></li>
-                            <li><a href="#" class="hover:underline">Bank-Betrug</a></li>
-                            <li><a href="#" class="hover:underline">Fakeshop-Betrug</a></li>
-                            <li><a href="#" class="hover:underline">Romance Scam</a></li>
+                            <li><a href="/investment-betrug.html" class="hover:underline">Investment-Betrug</a></li>
+                            <li><a href="/bank-betrug.html" class="hover:underline">Bank-Betrug</a></li>
+                            <li><a href="/festgeld-betrug.html" class="hover:underline">Festgeld Betrug</a></li>
+                            <li><a href="/fakeshop-betrug.html" class="hover:underline">Fakeshop-Betrug</a></li>
+                            <li><a href="/romance-betrug.html" class="hover:underline">Romance Scam</a></li>
                         </ul>
                     </div>
 

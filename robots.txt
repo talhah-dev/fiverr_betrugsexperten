@@ -1,4 +1,4 @@
-# robots.txt for http://bonusbros777.com/
+# robots.txt for https://www.betrugsexperten.de/
 
 User-agent: *
 # Allow indexing of all public pages
